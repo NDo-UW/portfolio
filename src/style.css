@@ -305,6 +305,7 @@ nav div {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    image-rendering: optimizeQuality;
 }
 
 .project-img.buildgenie {
@@ -312,6 +313,7 @@ nav div {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    image-rendering: optimizeQuality;
 }
 
 .project-img.foodie {
@@ -319,6 +321,7 @@ nav div {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    image-rendering: optimizeQuality;
 }
 
 .project-img.mylo {
@@ -326,6 +329,7 @@ nav div {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    image-rendering: optimizeQuality;
 }
 
 .project-img.ecoeye {
@@ -333,6 +337,7 @@ nav div {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    image-rendering: optimizeQuality;
 }
 
 /*  */
