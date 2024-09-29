@@ -30,7 +30,7 @@ export function About(props){
         <div id="about-section" className="about-container">
                 <h1>About Me</h1>
                 <div className="about-info-container">
-                    <img src="./img/about-photo.svg" alt="Nathan Do" className="about-photo"/>
+                    <img src="./img/about.jpg" alt="Nathan Do" className="about-photo"/>
                     <div className="about-description">
                         <div className="about-content">
                             <p className="about-text-header">Who Am I?</p>

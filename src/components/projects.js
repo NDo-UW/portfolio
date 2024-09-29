@@ -11,7 +11,7 @@ export function Projects(props) {
             type: "Web Development • UI/UX • Internship",
             description: "Website redesign and development of a student and administrative portal.",
             attributes: ["Ongoing"],
-            imgClass: "ignite",
+            imgSrc: './img/ignite.png',
             link: "",
             protected: true,
         },
@@ -20,7 +20,7 @@ export function Projects(props) {
             type: "Web Development",
             description: "A web application that organizes and manages PC build parts in one place.",
             attributes: ["React", "Javascript", "Firebase"],
-            imgClass: "buildgenie",
+            imgSrc: './img/buildgenie.png',
             link: "",
             protected: true,
         },
@@ -29,7 +29,7 @@ export function Projects(props) {
             type: "Web Development",
             description: "A web application that recommends, filters, and users to track and save their dining wishlist.",
             attributes: ["Flask", "Python", "SQLAlchemy"],
-            imgClass: "foodie",
+            imgSrc: './img/foodie.png',
             link: "",
             protected: true,
         },
@@ -38,7 +38,7 @@ export function Projects(props) {
             type: "Product Design",
             description: "Helping international students stay connected with their families, regardless of the distance.",
             attributes: ["User Research", "Prototyping", "SolidWorks"],
-            imgClass: "mylo",
+            imgSrc: './img/mylo.png',
             link: "",
             protected: true,
         },
@@ -47,7 +47,7 @@ export function Projects(props) {
             type: "UI/UX",
             description: "A Google Chrome extension that helps users make informed, sustainable shopping decisions.",
             attributes: ["User Research", "UI/UX", "Prototyping"],
-            imgClass: "ecoeye",
+            imgSrc: './img/ecoeye.png',
             link: "",
             protected: true,
         },
@@ -73,7 +73,7 @@ export function Projects(props) {
                 style={{ cursor: project.link || project.protected ? 'pointer' : 'default' }}
             >
                 <div className="project-img-container">
-                    <div className={`${project.imgClass} project-img`}></div>
+                    <img src={project.imgSrc} className="project-img" alt={project.title}/>
                 </div>
                 <h2 className="project-type">{project.type}</h2>
                 <p className="project-title">{project.title}</p>

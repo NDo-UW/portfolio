@@ -11,6 +11,7 @@
 html, body {
     font-family: "Inter", sans-serif;
     scroll-behavior: smooth;
+    width: 100%;
 }
 
 .home-page {
@@ -294,50 +295,13 @@ nav div {
     align-self: stretch;
     border-radius: 6px;
     min-height: 200px;
+    object-fit: cover;
+    object-position: center;
+    image-rendering: auto;
 }
 
 .project-img-2 {
     height: 60vh;
-}
-
-.project-img.ignite {
-    background-image: url('../public/img/ignite.svg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    image-rendering: optimizeQuality;
-}
-
-.project-img.buildgenie {
-    background-image: url('../public/img/buildgenie.svg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    image-rendering: optimizeQuality;
-}
-
-.project-img.foodie {
-    background-image: url('../public/img/foodie.svg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    image-rendering: optimizeQuality;
-}
-
-.project-img.mylo {
-    background-image: url('../public/img/mylo.svg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    image-rendering: optimizeQuality;
-}
-
-.project-img.ecoeye {
-    background-image: url('../public/img/ecoeye.svg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    image-rendering: optimizeQuality;
 }
 
 /*  */

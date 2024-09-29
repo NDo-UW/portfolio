@@ -17,7 +17,7 @@ function HomePageText(props){
                             <ReactTyped
                                 strings={[
                                     " digital and film photographer  📸",
-                                    " UW club bowler 🎳",
+                                    " UW Club bowler 🎳",
                                     " car enthusiast 🏎️"
                                 ]}
                                 typeSpeed={90}
@@ -37,7 +37,7 @@ function HomeToAboutButton(props){
     return (
         <a href="#about-section" className="hero-learn">
             <h2>learn more about me</h2>
-            <img src="./img/arrow-right.svg"/>
+            <img src="./img/arrow-right.svg" alt='link to about'/>
         </a>
     )
 }
