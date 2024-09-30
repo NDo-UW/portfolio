@@ -17,7 +17,7 @@ export function Popup(props) {
     return (props.trigger) ? (
         <div className="popup-overlay">
             <button className="close-btn" onClick={() => props.setTrigger(false)}>
-                <img src='./img/backarrow.svg' alt='back arrow'/>
+                <img src='./img/exit.svg' alt='return to previous'/>
             </button>
             <div className="popup-content">
                 {props.children}

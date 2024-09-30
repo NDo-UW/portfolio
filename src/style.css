@@ -130,7 +130,7 @@ nav div {
 .close-btn {
     position: absolute;
     top: 64px;
-    left: 64px;
+    right: 64px;
     background: transparent;
     border: none;
     cursor: pointer;
