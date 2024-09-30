@@ -575,6 +575,12 @@ nav div {
     margin-top: 16px;
 }
 
+@media (orientation: landscape){
+    .hero-container {
+    padding: 0 128px;
+    }
+}
+
 @media (min-width: 495px){
     .beli-arrow {
         display: block;
