@@ -38,7 +38,7 @@ export function PasswordProtectedPopup({ isOpen, onClose }) {
         <div className="popup-overlay">
             <div className="popup-content">
                 <button className="close-btn" onClick={onClose}>
-                    <img src='./img/backarrow.svg' alt='back arrow'/>
+                    <img src='./img/exit.svg' alt='return to previous'/>
                 </button>
                 <h1 className='password-title'>This case study is locked.
                     <br/>Please enter the password to view it.
