@@ -5,7 +5,7 @@ function HomePageText(props){
         <div className="hero-info">
             <div className="hero-name">
                 <h1>Nathan Do</h1>
-                <p>[nay-than-doe]</p>
+                <p>[nā-then dō]</p>
             </div>
             <div className="hero-list">
                 <p>web developer, product designer</p>
