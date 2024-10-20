@@ -335,9 +335,9 @@ nav div {
 /*  */
 
 .project-type {
-    margin-bottom: 4px;
-    font-size: 14px;
-    font-weight: 600;
+    margin-bottom: 6px;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .project-type span {
@@ -346,12 +346,12 @@ nav div {
 
 .project-title {
     font-weight: bold;
-    margin-bottom: 8px;
-    font-size: 20px;
+    margin-bottom: 12px;
+    font-size: 24px;
 }
 
 .project-description {
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .project-attribute, .project-attribute-2 {
