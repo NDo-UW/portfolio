@@ -1,23 +1,34 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 
 export function PasswordProtectedPopup({ isOpen, onClose }) {
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
+    const popupRef = useRef(null); // Reference to the popup content
 
     useEffect(() => {
         if (isOpen) {
             // Disable scrolling
             document.body.style.overflow = 'hidden';
+
+            // Add event listener for outside clicks
+            document.addEventListener('mousedown', handleOutsideClick);
         } else {
             // Enable scrolling
             document.body.style.overflow = 'auto';
         }
 
-        // Cleanup function to reset overflow when component is unmounted or popup is closed
+        // Cleanup function
         return () => {
             document.body.style.overflow = 'auto';
+            document.removeEventListener('mousedown', handleOutsideClick);
         };
     }, [isOpen]);
+
+    const handleOutsideClick = (event) => {
+        if (popupRef.current && !popupRef.current.contains(event.target)) {
+            onClose(); // Close popup when clicking outside
+        }
+    };
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -36,7 +47,7 @@ export function PasswordProtectedPopup({ isOpen, onClose }) {
 
     return (
         <div className="popup-overlay">
-            <div className="popup-content">
+            <div className="popup-content" ref={popupRef}>
                 <button className="close-btn" onClick={onClose}>
                     <img src='./img/exit.svg' alt='return to previous'/>
                 </button>

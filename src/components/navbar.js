@@ -41,6 +41,7 @@ export function Navbar(props) {
                     <img src="../img/burger-menu-svgrepo-com.svg" alt="menu"/>
                 </button>
                 
+                
                 {/* Popup component */}
                 <Popup trigger={isPopupVisible} setTrigger={setIsPopupVisible}>
                     <a href='#home-section' onClick={() => setIsPopupVisible(false)}>

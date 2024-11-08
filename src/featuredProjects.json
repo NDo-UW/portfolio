@@ -1,0 +1,32 @@
+[
+    {
+        "title": "BuyIn",
+        "type": "UI/UX Design",
+        "description": "An event manager that helps fraternities and sororities streamline event planning, guest lists, communication, and attendance management.",
+        "text-color": "#f8f6f1",
+        "attributes": ["User Research", "UI/UX", "Prototyping"],
+        "imgSrc": "./img/buyin.png",
+        "link": "",
+        "protected": true
+    },
+    {
+      "title": "Build Genie",
+      "type": "Web Development",
+      "description": "A web application that organizes and manages PC build parts in one place.",
+      "text-color": "#f8f6f1",
+      "attributes": ["React", "Javascript", "Firebase"],
+      "imgSrc": "./img/buildgenie.png",
+      "link": "",
+      "protected": true
+    },
+    {
+      "title": "Foodie Fun",
+      "type": "Web Development",
+      "description": "A web application that recommends, filters, and users to track and save their dining wishlist.",
+      "text-color": "#f8f6f1",
+      "attributes": ["Flask", "Python", "SQLAlchemy"],
+      "imgSrc": "./img/foodie.png",
+      "link": "",
+      "protected": true
+    }
+]

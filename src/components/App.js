@@ -6,6 +6,7 @@ import { Projects } from './projects';
 import { About } from './about';
 import { ContactForm } from './contact';
 import { Footer } from './footer';
+import FlowbiteCarousel from './carousel';
 
 import '../style.css';
 
