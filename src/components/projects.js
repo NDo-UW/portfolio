@@ -29,7 +29,6 @@ export function Projects() {
             >
                 <div className="project-img-container">
                     <img src={project.imgSrc} className="project-img" alt={project.title}/>
-                    
                 </div>
                 <div className='project-text'>
                     <p className="project-title" style={{ color: project['text-color']}}>{project.title}</p>
@@ -39,10 +38,9 @@ export function Projects() {
             </div>
         ));
     };
-
+    
     return (
         <div id="project-section" className="work-container">
-            <h1>My Work</h1>
             <div className="project-container">
                 {renderProjects(projects)}
             </div>
